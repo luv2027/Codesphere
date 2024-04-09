@@ -16,8 +16,7 @@ import OutputDetails from "./OutputDetails";
 import ThemeDropdown from "./ThemeDropdown";
 import LanguagesDropdown from "./LanguagesDropdown";
 
-const javascriptDefault = `console.log("Hello World!");
-`;
+const javascriptDefault = `//Start writing from here`;
 
 const Landing = () => {
   const [code, setCode] = useState(javascriptDefault);
